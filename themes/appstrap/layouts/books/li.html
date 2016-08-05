@@ -1,0 +1,37 @@
+ <!-- Blog post -->
+        <div class="row blog-post">
+          <div class="col-md-1 date-md">
+            <!-- Date desktop -->
+            <div class="date-wrapper"> <span class="date-m">{{ dateFormat "Jan" .Date}}</span> <span class="date-d">{{ dateFormat "02" .Date}}</span> </div>
+            <!-- Meta details desktop -->
+            <p class="text-muted"> <i class="fa fa-user"></i> <a href="#">Brian</a> </p>
+          </div>
+          <div class="col-md-11">
+            <div class="tags">{{ delimit .Params.tags " / " }}</div>
+            <h4 class="title media-heading">
+		    <a href="{{.Permalink}}">{{.Title}}</a>
+            </h4>
+            <!-- Meta details mobile -->
+            <ul class="list-inline meta text-muted">
+		    <li><i class="fa fa-calendar"></i> {{dateFormat "Mon Jan 02 2006" .Date}}</li>
+              <li><i class="fa fa-user"></i> <a href="#">Brian</a></li>
+            </ul>
+            <div class="row">
+               <div class="col-md-4 col-md-push-8">
+                <div class="blog-media">
+			<a href="{{.Permalink}}">
+			<img src="{{.Params.image}}" alt="{{.Params.imagealt}}" class="img-responsive" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-8 col-md-pull-4">
+		      {{.Summary}}
+                <ul class="list-inline links">
+                  <li>
+			  <a href="{{.Permalink}}" class="btn btn-default btn-xs"><i class="fa fa-arrow-circle-right"></i> Read more</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>

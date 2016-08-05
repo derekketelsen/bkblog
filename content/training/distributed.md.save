@@ -1,0 +1,17 @@
+---
+title: "Distributed Applications"
+subtitle: "Build Applications for Growth"
+description: "Project Consulting"
+tags: [ "docker", "raft", "go", "kubernetes" ]
+lastmod: "2016-07-30"
+date: "2016-07-30"
+menu:
+  training:
+    pre: "No Application is an Island"
+    weight: 20
+categories:
+  - "Consulting"
+  - "Project"
+slug: "distributed"
+---
+i'll take on a project for you

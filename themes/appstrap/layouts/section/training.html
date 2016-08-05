@@ -1,0 +1,42 @@
+
+  {{ partial "header.html" . }}
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index-static">
+    <a href="#content" class="sr-only">Skip to content</a> 
+    
+  {{ partial "navigation.html" . }}
+  {{ partial "highlight.html" .  }}
+
+
+
+<!-- ======== @Region: #content ======== -->
+<div id="content">
+  <div class="container" id="about">
+    <div class="row">
+      <!-- sidebar -->
+      {{ partial "trainingside.html" . }}
+      
+      <!--main content-->
+      <div class="col-md-9">
+        <h2 class="title-divider">
+          <span>Training <span class="de-em">You</span></span>
+          <small>Learn something new every day...</small>
+        </h2>
+        
+        <!-- About company -->
+        <h4>
+          Experience Counts
+        </h4>
+        <p>When you're looking for someone to train you or your team on complex topics, you want a trainer who has been in the trenches.</p>
+        <p>With 23 years of exerience designing, developing and deploying software, I'm the right trainer for you.  Choose from the available training classes in the menu to the left, or contact me for a custom training class tailored to your needs.</p>
+        
+	{{ partial "recommend.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  {{ partial "footer.html" . }}

@@ -1,0 +1,55 @@
+
+  {{ partial "header.html" . }}
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index-static">
+    <a href="#content" class="sr-only">Skip to content</a> 
+    
+  {{ partial "navigation.html" . }}
+
+<!-- ======== @Region: #content ======== -->
+<div id="content">
+  <div class="container">
+    <h2 class="title-divider">
+      <span>Brian <span class="de-em">Blogs</span></span>
+      <small>Every once in a while...</small>
+    </h2>
+    <div class="row">
+      <!--Blog Roll Content-->
+      <div class="col-md-9 blog-roll blog-list">
+        {{ range .Data.Pages }}
+ 	{{ .Render "li"  }} 
+	{{ end }}
+      </div>
+      
+      <!--Sidebar-->
+      <div class="col-md-3 sidebar sidebar-right">
+        <div class="inner">
+          
+          <!-- @Element: Search form -->
+          <div class="block">
+            <form role="form">
+              <div class="input-group">
+                <label class="sr-only" for="search-field">Search</label>
+                <input type="search" class="form-control" id="search-field" placeholder="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Go!</button>
+                </span>
+              </div>
+            </form>
+          </div>
+          
+	  {{ partial "tagcloud.html" . }}
+	  {{ partial "archive.html" .  }}
+	  {{ partial "social.html" . }} 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--.container-->
+</div>
+<!--#content-->
+
+
+  {{ partial "footer.html" . }}

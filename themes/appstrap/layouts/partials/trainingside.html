@@ -1,0 +1,19 @@
+
+      <div class="col-md-3 sidebar">
+        <!-- Sections Menu-->
+        <div class="section-menu">
+          <ul class="nav nav-list">
+	  <li class="nav-header"><a href="/training/">Training</a></li>
+            {{ $currentNode := . }}
+            {{ range .Site.Menus.training.ByWeight}}
+            <li {{if $currentNode.IsMenuCurrent "training" . }} class="active"{{end}}>
+	      <a href="{{.URL}}" class="first">
+		{{ .Name }}
+		<small>{{ .Pre}}</small>
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </li>
+	    {{ end }}
+          </ul>
+        </div>
+      </div>

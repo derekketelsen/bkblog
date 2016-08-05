@@ -1,0 +1,25 @@
+ <!-- Blog post -->
+        <div class="row blog-post">
+          <div class="col-md-12">
+            <h4 class="title media-heading">
+		    <a href="{{.Permalink}}">{{.Title}}</a>
+            </h4>
+            <div class="row">
+               <div class="col-md-4 col-md-push-8">
+                <div class="blog-media">
+			<a href="{{.Permalink}}">
+			<img src="{{.Params.image}}" alt="{{.Params.imagealt}}" class="img-responsive" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-8 col-md-pull-4">
+		      {{.Summary}}
+                <ul class="list-inline links">
+                  <li>
+			  <a href="{{.Permalink}}" class="btn btn-default btn-xs"><i class="fa fa-arrow-circle-right"></i> Read more</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>

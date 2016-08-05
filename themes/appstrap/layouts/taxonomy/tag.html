@@ -1,0 +1,86 @@
+
+
+  {{ partial "header.html" . }}
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index-static">
+    <a href="#content" class="sr-only">Skip to content</a> 
+    
+  {{ partial "navigation.html" . }}
+
+<!-- ======== @Region: #content ======== -->
+<div id="content">
+  <div class="container">
+    <h2 class="title-divider">
+      <span>Brian<span class="de-em">Ketelsen</span></span>
+      <small>Tag List/Search</small>
+    </h2>
+    
+    <div class="row">
+      <!--Blog Timeline -->
+      <div class="col-md-9">
+        <div class="blog-roll blog-grid" data-toggle="isotope-grid" data-isotope-options='{"itemSelector": ".grid-item"}'>
+          <div class="row">
+		  {{ range .Data.Pages.ByDate.Reverse }} 
+            <!--Timeline item 1-->
+            <div class="col-sm-6 col-md-4 grid-item">
+              <div class="blog-post">
+                <div class="blog-media">
+			<a href="{{.Permalink}}">
+			  <img src="{{.Params.image}}" alt="{{.Params.imagealt}}" class="img-responsive" />
+                  </a>
+                </div>
+                <div class="margin-top-md">
+                  <div class="date-wrapper date-wrapper-horizontal">
+<span class="date-m">{{ dateFormat "January" .Date}}</span>
+<span class="date-d">{{ dateFormat "02" .Date }}</span> </div>
+                  <div class="tags">
+ {{ delimit .Params.tags " / " }}
+  <!-- 	  <a href="#" class="tag">weather</a> / <a href="#" class="type">image</a></div> -->
+  		  </div>
+                  <h4 class="timeline-item-title">
+			  <a href="{{.Permalink}}">{{.Title}}</a>
+                  </h4>
+		  <p class="timeline-item-description">{{.Summary}}</p>
+		  <a href="{{.Permalink}}" class="btn btn-link"><i class="fa fa-arrow-circle-right"></i> Read more</a>
+                </div>
+              </div>
+            </div>
+		{{end}}
+          </div>
+        </div>
+        
+      </div>
+      
+      <!--Sidebar-->
+      <div class="col-md-3 sidebar sidebar-right">
+        <div class="inner">
+          
+          <!-- @Element: Search form -->
+          <div class="block">
+            <form role="form">
+              <div class="input-group">
+                <label class="sr-only" for="search-field">Search</label>
+                <input type="search" class="form-control" id="search-field" placeholder="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Go!</button>
+                </span>
+              </div>
+            </form>
+          </div>
+          
+	  {{ partial "tagcloud.html" . }}
+          
+	  {{ partial "archive.html" .  }}
+	  {{ partial "social.html" . }} 
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--.container-->
+</div>
+<!--#content-->
+
+
+  {{ partial "footer.html" . }}

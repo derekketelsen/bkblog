@@ -1,0 +1,5 @@
+baseurl = "https://brianketelsen.com"
+languageCode = "en-us"
+title = "BrianKetelsen.com"
+[taxonomies]
+tag = "tags"

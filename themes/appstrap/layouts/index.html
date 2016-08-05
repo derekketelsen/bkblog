@@ -1,0 +1,76 @@
+  {{ partial "header.html" . }}
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index-static">
+    <a href="#content" class="sr-only">Skip to content</a> 
+    
+  {{ partial "navigation.html" . }}
+  {{ partial "highlight" . }}
+
+<!-- ======== @Region: #content ======== -->
+<div id="content">
+  <div class="container">
+    <!-- Services -->
+    <div class="block features">
+      <h2 class="title-divider">
+        <span>Distributed <span class="de-em">Strengths</span></span>
+        <small>Put my experience to work for you.</small>
+      </h2>
+      <div class="row">
+        <div class="feature col-sm-6 col-md-3">
+          <a href="/books/">
+            <img src="/img/features/feature-1.png" alt="Feature 1" class="img-responsive" />
+          </a>
+          <h3 class="title">
+            <a href="/books/">Technical <span class="de-em">Author</span></a>
+          </h3>
+	  <p>My first book <strong>Go In Action</strong> is available from Manning Press.</p>
+        </div>
+        <div class="feature col-sm-6 col-md-3">
+          <a href="/consulting/">
+            <img src="/img/features/feature-2.png" alt="Feature 2" class="img-responsive" />
+          </a>
+          <h3 class="title">
+            <a href="/consulting/">Software <span class="de-em">Consulting</span></a>
+          </h3>
+          <p>Experience matters when you are building and deploying distributed systems.</p>
+        </div>
+        <div class="feature col-sm-6 col-md-3">
+          <a href="/blog/">
+            <img src="/img/features/feature-3.png" alt="Feature 3" class="img-responsive" />
+          </a>
+          <h3 class="title">
+            <a href="/blog/">Blog <span class="de-em">Articles</span></a>
+          </h3>
+          <p>Read my writings on various topics, including but not limited to software development.</p>
+        </div>
+        <div class="feature col-sm-6 col-md-3">
+          <a href="/training/">
+            <img src="/img/features/feature-4.png" alt="Feature 4" class="img-responsive" />
+          </a>
+          <h3 class="title">
+            <a href="/training/">On-site <span class="de-em">Training</span></a>
+          </h3>
+          <p>Hire me to train your team.  Onsite training available at competitive rates.</p>
+        </div>
+      </div>
+    </div>
+    {{ partial "recommend.html" . }}                <!--Customer testimonial-->
+  </div>
+</div>
+
+<!-- ======== @Region: #content-below ======== 
+<div id="content-below" class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="upsell">
+        <small class="muted">99.9% Uptime <span class="spacer">//</span> Free upgrade assistence <span class="spacer">//</span> 24/7 Support <span class="spacer">//</span> Plans from $19.99/month <span class="spacer">//</span> </small>
+        <a href="pricing.htm" class="btn btn-primary">Start your Free Trial Today! <i class="fa fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- FOOTER -->
+
+
+  {{ partial "footer.html" . }}

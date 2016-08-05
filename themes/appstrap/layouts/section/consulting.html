@@ -1,0 +1,38 @@
+
+  {{ partial "header.html" . }}
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index-static">
+    <a href="#content" class="sr-only">Skip to content</a> 
+    
+  {{ partial "navigation.html" . }}
+
+  {{ partial "highlight.html" . }}
+
+
+<!-- ======== @Region: #content ======== -->
+<div id="content">
+  <div class="container" id="about">
+    <div class="row">
+      <!-- sidebar -->
+      {{ partial "consultingside.html" . }}
+      
+      <!--main content-->
+      <div class="col-md-9">
+        <h2 class="title-divider">
+          <span>Consulting <span class="de-em">Services</span></span>
+          <small>Pay me to solve your problems...</small>
+        </h2>
+        
+               {{ range .Data.Pages }}
+ 	{{ .Render "li"  }} 
+	{{ end }}        
+	{{ partial "recommend.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  {{ partial "footer.html" . }}

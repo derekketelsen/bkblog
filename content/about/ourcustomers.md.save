@@ -1,0 +1,18 @@
+---
+title: "What My Customers Say"
+subtitle: "Testimonials"
+description: "Project Consulting"
+tags: [ ".vimrc", "plugins", "spf13-vim", "vim" ]
+lastmod: "2016-07-30"
+date: "2016-07-30"
+menu:
+  about:
+    pre: "Straight From The Trenches"
+    weight: 20
+categories:
+  - "Consulting"
+  - "Project"
+slug: "references"
+---
+
+They love us, we're the best

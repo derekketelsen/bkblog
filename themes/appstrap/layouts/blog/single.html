@@ -1,0 +1,142 @@
+
+  {{ partial "header.html" . }}
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index-static">
+    <a href="#content" class="sr-only">Skip to content</a> 
+    
+  {{ partial "navigation.html" . }}
+
+
+
+<!-- ======== @Region: #content ======== -->
+<div id="content">
+  <div class="container">
+    <h2 class="title-divider">
+	    <span>{{.Title}}</span>
+      <small>
+        <a href="/blog/"><i class="fa fa-arrow-left"></i> Back to List</a>
+      </small>
+    </h2>
+    <div class="row">
+      <!--Main Content-->
+      <div class="col-md-9">
+        <!-- Blog post -->
+        <div class="row blog-post">
+          <div class="col-md-1 date-md">
+            <!-- Date desktop -->
+            <div class="date-wrapper"> <span class="date-m">{{ dateFormat "Jan" .Date}}</span> <span class="date-d">{{ dateFormat "02" .Date}}</span>
+</div>
+            <!-- Meta details desktop -->
+            <p class="text-muted"> <i class="fa fa-user"></i> <a href="#">Brian</a>
+</p>
+          </div>
+          <div class="col-md-11">
+            <div class="media-body">
+              <div class="sections"> {{ delimit .Params.tags " / " }}</div>
+              <h3 class="title media-heading">
+		      {{.Params.subtitle}}
+              </h3>
+              
+              <!-- Meta details mobile -->
+              <ul class="list-inline meta text-muted">
+		      <li><i class="fa fa-calendar"></i> {{ dateFormat "Mon 2 Jan 2006" .Date}}</li>
+                <li><i class="fa fa-user"></i> <a href="#">Erin</a></li>
+              </ul>
+              
+              <!--Main content of post-->
+              <div class="blog-content">
+                <div class="blog-media">
+			<img src="{{.Params.image}}" alt="{{.Params.imagealt}}" class="img-responsive" />
+                </div>
+		<br/>
+		{{ .Content  }} 
+               </div>
+              
+              <!-- Post Tags -->
+              <div class="tag-cloud post-tag-cloud">
+                <h4>
+                  Tags
+                </h4>
+		{{ range .Params.tags }}
+		<a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
+		{{ end }}
+              </div>
+              
+              <div class="block block-callout post-block">
+                <!-- About The Author -->
+                <div class="post-author">
+                  <h4>
+                    About The Author: <span class="text-light">Jim Jones</span>
+                  </h4>
+                  <p>Euismod facilisi paratus valetudo ymo. Consequat ea gemino iusto quidne si singularis sino vicis. Causa commodo consequat huic immitto iustum odio virtus. Abluo appellatio augue commodo iustum letalis minim refero saepius.</p>
+                </div>
+                
+                <!-- Share Widget -->
+                <div class="post-share social-media-branding">
+                  <h5>
+                    Share it:
+                  </h5>
+                  <!--@todo: replace with real social share links -->
+                  <a href="#" class="social-link branding-twitter"><i class="fa fa-twitter-square"></i></a>
+                  <a href="#" class="social-link branding-facebook"><i class="fa fa-facebook-square"></i></a>
+                  <a href="#" class="social-link branding-linkedin"><i class="fa fa-linkedin-square"></i></a>
+                  <a href="#" class="social-link branding-google-plus"><i class="fa fa-google-plus-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Post To Post Pager -->
+        <div class="post-to-post-pager"> <a href="#" class="btn btn-lg btn-primary previous">&larr; Previous Post</a> <a href="#" class="btn btn-lg btn-primary next">Next Post &rarr;</a> </div>
+	</div>  
+      <!--Sidebar-->
+      <div class="col-md-3 sidebar sidebar-right">
+        <div class="inner">
+          
+          <!-- @Element: Search form -->
+          <div class="block">
+            <form role="form">
+              <div class="input-group">
+                <label class="sr-only" for="search-field">Search</label>
+                <input type="search" class="form-control" id="search-field" placeholder="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Go!</button>
+                </span>
+              </div>
+            </form>
+          </div>
+          
+	{{ partial "tagcloud.html" . }}
+          
+	  {{ partial "archive.html" . }}
+          
+	  {{ partial "social.html" . }} 
+	
+	</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======== @Region: #content-below ======== -->
+<div id="content-below" class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="upsell">
+        <small class="muted">99.9% Uptime <span class="spacer">//</span> Free upgrade assistence <span class="spacer">//</span> 24/7 Support <span class="spacer">//</span> Plans from $19.99/month <span class="spacer">//</span> </small>
+        <a href="pricing.htm" class="btn btn-primary">Start your Free Trial Today! <i class="fa fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  {{ partial "footer.html" . }}
