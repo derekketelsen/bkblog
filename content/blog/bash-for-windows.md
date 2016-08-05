@@ -55,8 +55,8 @@ Strange, strange times we live in. 20 years ago Microsoft called Linux a cancer 
 
 Screen shots:
 
-![i3 in MobaXTerm](/images/i3.png "i3 in MobaXTerm")
+[i3 in MobaXTerm](/images/i3.png "i3 in MobaXTerm")
 
-![i3 in behind Windows](/images/windows-on-top.png "i3 behind Slack and Windows Explorer")
+[i3 in behind Windows](/images/windows-on-top.png "i3 behind Slack and Windows Explorer")
 
 
