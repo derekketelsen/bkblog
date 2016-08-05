@@ -1,17 +1,18 @@
 ---
 title: "Microservices With goa"
-subtitle: "Large or Small Projects"
+subtitle: "Generate All the Things!"
 description: "Project Consulting"
-tags: [ ".vimrc", "plugins", "spf13-vim", "vim" ]
+tags: [ "api", "microservices", "goa"]
 lastmod: "2016-07-30"
 date: "2016-07-30"
 menu:
   training:
-    pre: "Large or Small Projects"
+    pre: "Generate Your Troubles Away"
     weight: 20
 categories:
   - "Consulting"
   - "Project"
 slug: "goa"
 ---
-i'll take on a project for you
+
+Coming Soon!
