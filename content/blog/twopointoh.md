@@ -58,4 +58,4 @@ Here's my calendar for the next several months:
 * November 5 - November 30 - *Available for Training*
 * December - *Available for Training*
 
-You can stay informed about my upcoming classes, events, trainings and speaking engagements by signing up for my newsletter in the footer down below. Thank you to everyone who provided much-needed advice as I considered this transition.  I hope you'll come along with me for the ride -- I'm excited that I've finally found a solutionto the Conference Organizer's Dilemma. 
+You can stay informed about my upcoming classes, events, trainings and speaking engagements by signing up for my newsletter in the footer down below. Thank you to everyone who provided much-needed advice as I considered this transition.  I hope you'll come along with me for the ride -- I'm excited that I've finally found a solution to the Conference Organizer's Dilemma. 
