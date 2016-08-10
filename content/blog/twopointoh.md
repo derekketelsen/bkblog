@@ -11,7 +11,7 @@ tags = ["speaking", "training", "consulting"]
 title = "Career 2.0 - Go Training, Videos, Speaking"
 
 +++
-A week ago I left my job at [backplane](http://backplane.io).  I think backplane is an amazing service that will be very successful.  I think Blake and his team are amazing people to work for and with.  I didn't leave because of them.
+A week ago I decided to start a new journey.  While I truly enjoyed working with Blake Mizerany and the team at [backplane](http://backplane.io), I felt I really had a passion for training and growing the Go community and I decided I owe it to myself to pursue it.
 <!--more-->
 ## Flashback: GopherCon 2016
 I taught a one day workshop at GopherCon - Building HTTP APIs in Go - and I really enjoyed the experience.  Putting together the class was a lot of fun, and I got a lot of very positive feedback from the people in the class.  I've done corporate training in the past and I had forgotten how much fun it is.  As the feedback from the class started coming in, it occured to me that this might be the solution to a problem I've had for three years now.
