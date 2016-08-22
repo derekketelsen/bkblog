@@ -14,7 +14,7 @@ slug: "contact"
 
 The best ways to reach me: <!--more-->
 
-* [email](mailto:info@brianketelsen.com)
+* [email](mailto:me@brianketelsen.com)
 * [twitter](https://twitter.com/bketelsen)
 * Phone: +1(813) 434-1484
 

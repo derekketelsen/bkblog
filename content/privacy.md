@@ -32,7 +32,7 @@ If we ask for your personal information for a secondary reason, like marketing, 
 
 How do I withdraw my consent?
 
-If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at mail@brianketelsen.com or mailing us at: Caladan Services, LLC 18865 State Road 54, Suite 179, Lutz, FL, 33558, United States
+If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at me@brianketelsen.com or mailing us at: Caladan Services, LLC 18865 State Road 54, Suite 179, Lutz, FL, 33558, United States
 
 
 SECTION 3 - DISCLOSURE
