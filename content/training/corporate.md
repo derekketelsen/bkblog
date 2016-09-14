@@ -19,7 +19,7 @@ I offer comprehensive two, three, or four day training sessions on the following
 
 * Go (Beginner, Advanced)
 * Kubernetes
-* Distributed Computing with Go
+* Distributed Computing with Go (microservices, clustered applications)
 * Microservices Development with goa, Micro or go-kit
 
 [Contact Me](mailto:me@brianketelsen.com) today for a customized quote for your team.
