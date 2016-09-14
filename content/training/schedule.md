@@ -28,3 +28,5 @@ November:
 
 
 Sign up for my newsletter in the footer below to get notifications when new training courses are added.
+
+[Corporate Training Testimonials](/tags/testimonials/)

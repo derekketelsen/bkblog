@@ -23,3 +23,5 @@ I offer comprehensive two, three, or four day training sessions on the following
 * Microservices Development with goa, Micro or go-kit
 
 [Contact Me](mailto:me@brianketelsen.com) today for a customized quote for your team.
+
+[Corporate Training Testimonials](/tags/testimonials/)
