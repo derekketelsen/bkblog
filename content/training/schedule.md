@@ -25,7 +25,7 @@ October:
 November:
 
 * November 1-2 - [Go + Distributed Computing (San Francisco)](http://www.oreilly.com/live-training/go-distributed-computing.html)
-
+* November 9-10 - [Kubernetes (Velocity Amsterdam)](http://conferences.oreilly.com/velocity/devops-web-performance-eu/public/schedule/detail/53713)
 
 Sign up for my newsletter in the footer below to get notifications when new training courses are added.
 
