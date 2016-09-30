@@ -3,7 +3,7 @@ title: "Schedule"
 subtitle: "Upcoming Training Events"
 description: "Training Schedule"
 tags: [ "docker", "kubernetes", "go", "corporate training" ]
-lastmod: "2016-09-14"
+lastmod: "2016-09-30"
 date: "2016-09-14"
 menu:
   training:
