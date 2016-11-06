@@ -30,6 +30,6 @@ The most amazing part of all of this is that I simply git cloned my [dotfiles](h
 
 I think Apple has lost its hunger, and Microsoft found it.  The tables have turned from the funny switching campaigns with Justin Long looking hip and making fun of the frumpy John Hodgman.  Today's Microsoft is a completely different animal.  They're contributing heavily to open source projects, they've opened up the .Net platform, they're embracing developers and open source enthusiasts openly while Apple counts dollar bills from iPhone sales in a vault in Switzerland somewhere.
 
-I got a lot of befuddled and confused response on Twitter when I announced my switch.  This environment may not yet be perfect, but my bet is on Microsoft for the future.  I'm surprised to be saying that, but the evidence is clear that Apple isn't the company it was under Steve Jobs.  And Microsoft isn't the company it was under Balmer.  The irony hurts.  
+I got a lot of amused responses on Twitter when I announced my switch.  This environment may not yet be perfect, but my bet is on Microsoft for the future.  I'm surprised to be saying that, but the evidence is clear that Apple isn't the company it was under Steve Jobs.  And Microsoft isn't the company it was under Balmer.  The irony hurts.  
 
 [image credit wikipedia](https://en.wikipedia.org/w/index.php?curid=26608065)
