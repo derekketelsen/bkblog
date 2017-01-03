@@ -1,5 +1,5 @@
-baseurl = "https://brianketelsen.com"
+baseurl = "https://derekketelsen.com"
 languageCode = "en-us"
-title = "BrianKetelsen.com"
+title = "DerekKetelsen.com"
 [taxonomies]
 tag = "tags"
